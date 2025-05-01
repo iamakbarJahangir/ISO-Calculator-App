@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-    <!-- Display Screen -->
     <TextView
         android:textSize="60sp"
         android:textColor="#FFFFFF"
@@ -18,7 +17,6 @@
         android:gravity="bottom|end"
         android:background="#000000" />
 
-    <!-- Row 1: C, ±, %, ÷ -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_weight="1"
@@ -70,7 +68,6 @@
             android:layout_height="match_parent" />
     </LinearLayout>
 
-    <!-- Row 2: 7, 8, 9, × -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_height="0dp"
@@ -122,7 +119,6 @@
             android:layout_weight="1" />
     </LinearLayout>
 
-    <!-- Row 3: 4, 5, 6, - -->
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -174,7 +170,6 @@
             android:backgroundTint="#FF9500" />
     </LinearLayout>
 
-    <!-- Row 4: 1, 2, 3, + -->
     <LinearLayout
         android:layout_weight="1"
         android:orientation="horizontal"
@@ -226,7 +221,6 @@
             android:layout_width="0dp" />
     </LinearLayout>
 
-    <!-- Row 5: 0, ., = -->
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
